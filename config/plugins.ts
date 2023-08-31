@@ -1,6 +1,12 @@
 
 export default {
     //
+    'cookie-manager': {
+      enabled: true,
+      config: {
+        localization: true
+      }
+    },
     graphql: {
       config: {
         endpoint: '/graphql',
